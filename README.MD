@@ -1,12 +1,12 @@
 # Chat summarizer 📝
 
-> Disclaimer! This is a prototype and a fun project that I've been working on and it is not ready for production. It was done in a few days to experiment and play with new technologies for mes.
+> Disclaimer! This is a prototype and a fun project that I've been working on and it is not ready for production. It was done in a few days to experiment and play with new technologies for me.
 
 ## Introduction
 
-*Sometimes you need to share a chat with a friend, maybe to gossip a little bit, maybe just laugh at what others write to you or you want to share a 2-page long explanation from your divorced wife why you are the worst human being. Probably you will start copying text from your WhatsUp or Telegram account or maybe you will do some screenshots and send them to your best friend.*
+*Sometimes you need to share a chat with a friend, maybe to gossip a little bit, maybe just laugh at what others write to you or you want to share a 2-page long explanation from your divorced wife why you are the worst human being. Probably you will start copying text from your WhatsUp or Telegram account or maybe you will do some screenshots and then you will send it to your bestfriend. *
 
-*But this approach is not sustainable and it is very time-consuming. It is possible to invoke Feodor Dostoevsky or Mark Twain to narrate in 3-4 sentences your stupid, non-sense conversation? Well, the answer is YES. What you need is just an emotionless and rigorous AI model that will interpret your chat log and will summarize from a third-person perspective the entire conversation.*
+*But this approach is not sustainable and it is very time-consuming. Your friend must be up-to-date with your personal life latest news. It is possible to invoke Feodor Dostoevsky or Mark Twain to narrate in 3-4 sentences your stupid, non-sense conversation? Well, the answer is YES. What you need is just an emotionless and rigorous AI model that will interpret your chat log and will summarize from a third-person perspective the entire conversation.*
 
 ## What AI?
 
