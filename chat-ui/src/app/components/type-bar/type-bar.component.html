@@ -1,0 +1,15 @@
+<textarea
+  class="type-area"
+  [(ngModel)]="text"
+  (keydown)="onKeydown($event)"
+></textarea>
+<div class="send-button">
+  <button
+    mat-fab
+    color="primary"
+    (click)="sendMessage()"
+    [disabled]="text === ''"
+  >
+    <mat-icon>send</mat-icon>
+  </button>
+</div>

@@ -1,0 +1,21 @@
+<div class="menu">
+  <button mat-icon-button [matMenuTriggerFor]="menu" class="menu-button">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="summarize()">
+      <mat-icon>summarize</mat-icon>
+      <span>Summarize</span>
+    </button>
+    <button mat-menu-item disabled>
+      <mat-icon>notifications_off</mat-icon>
+      <span>Disable notifications</span>
+    </button>
+    <button mat-menu-item disabled>
+      <mat-icon>logout</mat-icon>
+      <span>Leave chat</span>
+    </button>
+  </mat-menu>
+</div>
+<app-chat-area class="chat-area" [messages]="messages"></app-chat-area>
+<app-type-bar class="type-bar" (onSend)="sendMessage($event)"></app-type-bar>

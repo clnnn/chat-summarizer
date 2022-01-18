@@ -1,0 +1,6 @@
+<app-chat-card
+  class="chat-card"
+  [messages]="messages$ | async"
+  (onSendMessage)="sendMessage($event)"
+  (onSummarize)="summarize()"
+></app-chat-card>
